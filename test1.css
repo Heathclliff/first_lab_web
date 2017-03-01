@@ -1,0 +1,126 @@
+h2{
+	padding-left:350px;
+	font-family:Trebuchet MS;
+	font-size:40px;
+}
+.knowlege {
+	padding-left:350px;
+}
+
+body
+{
+background:linear-gradient(to bottom,#6127c6,#27c68b);
+
+}
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+	padding-left:-10px;
+	width:333px;
+    float: left;
+    position: relative;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #7ac000;
+    text-decoration: none;
+}
+ul.menu > li > a:hover {
+    background-color: black;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 37px;
+    left: 0;
+    background-color: white;
+    border: 1px solid red;
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #ff5400;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+ul.menu > li:hover > ul.submenu {
+    display: block;
+} 
+
+.text {
+	border: 2px solid red;
+	border-radius:5px;
+	padding:20px;
+
+}
+#answer{
+	font-size:40px;
+}
+.button {
+	
+ border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 24px;
+    background-color: #7ac000;
+    padding: 5px 36px 8px 36px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.23, #619702),
+        color-stop(0.62, #7ac000)
+    );
+    background: -moz-linear-gradient(
+        center bottom,
+        #619702 23%,
+        #7ac000 62%
+    );
+
+  }
+.button:hover {
+	  color: #fff; 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4); 
+    background-color: #ff5400;
+    background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.23, #c34000),
+        color-stop(0.62, #ff5400)
+    );
+    background: -moz-linear-gradient(
+        center bottom,
+        #c34000 23%,
+        #ff5400 62%
+    );
+   }
+a{
+text-align:center;
+font-family:Comic Sans MS;
+}
